@@ -35,7 +35,7 @@ app.post("/bmicalculator", function(req,res){
 
     res.send("Your BMI is" + bmi);
 
-// server start on port 3000
+// server start on port 3000.
 
 });
 app.listen(3000, function(){
